@@ -90,4 +90,9 @@
   <project name="vendor_qcom_opensource_wlan_qca-wifi-host-cmn" path="vendor/qcom/opensource/wlan/qca-wifi-host-cmn" remote="NT" />
   <project name="vendor_qcom_opensource_wlan_qcacld-3.0" path="vendor/qcom/opensource/wlan/qcacld-3.0" remote="NT" />
 
+  <!-- Build script -->
+  <project name="kernel_platform_script" path="kernel_platform/script" remote="NT">
+    <linkfile dest="build.sh" src="build.sh"/>
+  </project>
+
 </manifest>
